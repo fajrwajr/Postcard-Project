@@ -1,10 +1,3 @@
-body .postcard,
-.postcard-header,
-.postcard-header img {
-	border: 1px dashed red;
-	min-height: 10px;
-}
-
 body {
 	background: black;
 }
@@ -17,8 +10,9 @@ h1 {
 .postcard {
 	background: white;
 	width: 400px;
-	height: 300px;
+	height: 330px;
 	margin: auto;
+	margin-top: 120px;
 }
 
 .postcard-header {
@@ -36,6 +30,7 @@ h1 {
 
 .body-left {
 	font-family: "Bai Jamjuree", sans-serif;
+	margin-right: 20px;
 }
 
 input[type="text"] {
